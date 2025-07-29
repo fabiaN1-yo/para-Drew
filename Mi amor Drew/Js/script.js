@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { 
   let text = getURLParam('text');
   if (!text) {
-    text = `Para el amor de mi vida Drew (Guadalupe):\n\nAmor. Desde el primer momento supe queserias tu. Tu voz, tu forma de ser, tu manera de jugar, todo de ti me encanto... \n\nGracias por entenderme incluso en silencio, por llenar mis días de amor, te convertiste en mi felicidad.\n\nHoy cumplimos un mes de novios, y aun que es poco tiempo ya me has hecho sentir muchisimo. Gracias por hacer cada dia mas bonito desde que llegaste a mi vida. Te amo mucho, mi amor Guadalupe.`;  } else {
+    text = `Para el amor de mi vida Drew (Guadalupe):\n\nAmor. Desde el primer momento supe que serias tu. Tu voz, tu forma de ser, tu manera de jugar, todo de ti me encanto... \n\nGracias por entenderme incluso en silencio, por llenar mis días de amor, te convertiste en mi felicidad.\n\nHoy cumplimos un mes de novios, y aun que es poco tiempo ya me has hecho sentir muchisimo. Gracias por hacer cada dia mas bonito desde que llegaste a mi vida. Te amo mucho, mi amor Guadalupe.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
